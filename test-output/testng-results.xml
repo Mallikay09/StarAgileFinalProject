@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-06T12:46:57 IST" name="Default suite" finished-at="2024-11-06T12:47:14 IST" duration-ms="16413">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T12:46:57 IST" name="Default test" finished-at="2024-11-06T12:47:14 IST" duration-ms="16413">
+      <class name="com.Module1.Login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:46:57 IST" name="setUp" finished-at="2024-11-06T12:47:02 IST" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:03 IST" name="loginTest" data-provider="excelLoginData" finished-at="2024-11-06T12:47:08 IST" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:08 IST" name="loginTest" data-provider="excelLoginData" finished-at="2024-11-06T12:47:09 IST" duration-ms="1806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lead]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lead123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:09 IST" name="loginTest" data-provider="excelLoginData" finished-at="2024-11-06T12:47:11 IST" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[member123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:11 IST" name="loginTest" data-provider="excelLoginData" finished-at="2024-11-06T12:47:11 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:11 IST" name="loginTest" data-provider="excelLoginData" finished-at="2024-11-06T12:47:13 IST" duration-ms="1412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Module1.Login.LoginTest@45752059]" started-at="2024-11-06T12:47:13 IST" name="tearDown" finished-at="2024-11-06T12:47:14 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Module1.Login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
